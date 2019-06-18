@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 20px;
+    width: 500px;
+}
+
+.rectangulo{
+    height: 370px;
+    width: 580px;
+}
