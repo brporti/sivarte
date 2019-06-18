@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.principal{
+    flex-direction: column;
+    display: flex;
+}
+
+.card{
+    margin: 20px;
+}
