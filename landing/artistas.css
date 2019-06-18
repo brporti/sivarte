@@ -9,6 +9,6 @@ body{
 }
 
 .rectangulo{
-    height: 370px;
-    width: 580px;
+    height: 100%;
+    width: 100%;
 }
