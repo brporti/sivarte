@@ -1,7 +1,9 @@
 body{
     display: flex;
     justify-content: center;
-    background: #000000;
+    background: url(img/background_artistas.jpg) #000000;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .card{
@@ -11,7 +13,7 @@ body{
 
 
 
-a {
+.swing {
     color: #1D9AF2;
     background-color: #292D3E;
     border: 1px solid #1D9AF2;
@@ -22,7 +24,7 @@ a {
     font-size: 14px;
     transition: all 0.2s ease-in-out;
   }
-  a:hover {
+  .swing:hover {
    animation: swing 1s ease;
    animation-iteration-count: 1;
   }
@@ -53,3 +55,4 @@ a {
       transform: translateX(0);
     }
   }
+
