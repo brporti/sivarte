@@ -34,19 +34,91 @@ body{
     height:100%;
   }
 
-  .grid-container{
+  .padre{
     width:100%;
     height:100%;
   }
 
   .img{
-      background-color: black;
-      opacity: 0.8;
-      text-align: center;
+    width:100%;
+    height:100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
   }
  
-  img:hover{
-    opacity: 0.4;
-    transition: 0.4s ease;
-    transform: scale(0.8) translateX(5%);
+.cafe{
+    background-image: url(http://allrestaurants.eu/img/af/129977/15597417533350.jpg)
+}
+
+.artista{
+    background-image: url(https://thefashionsymphony.files.wordpress.com/2016/03/web.jpg?w=434&h=310)
+}
+
+.hoys{
+    background-image: url(https://i.ytimg.com/vi/r1lXYJAAdEs/maxresdefault.jpg)
+}
+
+.evento{
+    background-image: url(http://www.mitur.gob.sv/wp-content/uploads/2011/11/IMG_8548-1024x768.jpg)
+}
+
+.hecho{
+    background-image: url(https://previews.123rf.com/images/simbos/simbos1701/simbos170100049/69304069-hecho-en-el-salvador-bandera-azul-color-etiqueta-bot%C3%B3n-banner.jpg)
+}
+
+.cantante{
+    background-image: url(https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2016/07/14/Production/ETL/ETL-A/Images/CARTASAFELICE.jpg?t=20170517)
+}
+
+.contactano{
+    background-image: url(https://static1.squarespace.com/static/57081929356fb0c9e49157eb/t/5b73443e1ae6cf1a3e88b084/1541778422658/contactanos.png)
+}
+
+.centro{
+    background-image: url(https://scontent.fsal2-1.fna.fbcdn.net/v/t1.15752-9/53150257_254944225381900_6175146563342434304_n.jpg?_nc_cat=105&_nc_eui2=AeFf0oEKHCipfVyf91Gww6JuzDGJvoMS_gKVzh2WHLjLfYy7IVJh7tMGA8EUvc-Jypv6KL-rySE0PoI0hW4FTkBQ4qXmN2DidEx1oYIZJidFAg&_nc_ht=scontent.fsal2-1.fna&oh=a5354656dbda232dd992053478580b2e&oe=5D19A278)
+}
+
+.digita{
+    background-image: url(https://static1.squarespace.com/static/5b8dfa219d5abb3483d0cd73/5ba55ec4ec212d3b0af4da49/5ba69d6af9619abf16802c80/1537668523814/?format=300w)
+}
+
+.img:hover{
+    opacity: 1;
+    transition: 0.8s ease;
+    transform: scale(1.05)
+}
+
+.padre:hover .img,
+.padre:hover:focus .img {
+transform: scale(1.05);
+transition: all .5s;
+}
+
+.img::before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
   }
+  
+  .padre:hover .img:before,
+  .padre:focus .img:before {
+    display: block;
+  }
+
+span {
+    color: white;
+    font-family: sans-serif;
+    padding: 25%;
+    position: absolute;
+  }
+
+.padre:hover span,
+.padre:focus span {
+  display: block;
+}
