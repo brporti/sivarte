@@ -1,0 +1,23 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+}
+
+.frame{
+    border: 1px solid #EEE;
+    box-sizing: content-box;
+}
+
+.date{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00467b;
+}
+
+.titulo{
+    text-align: center; 
+}
+
+.jumbotron{
+background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/02/shutterstock_163052525-730x342.jpg")
+}
