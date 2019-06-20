@@ -1,23 +1,44 @@
-body,html{
+body,
+html {
     width: 100%;
     height: 100%;
-    background: whitesmoke;
+    background-image: url(https://www.designyourway.net/diverse/darkpat/wallpaper_800x600_1336.jpg);
 }
 
-.frame{
-    border: 1px solid #EEE;
+.img-fluid {
     box-sizing: content-box;
 }
 
-.date{
-    font-family: Arial, Helvetica, sans-serif;
+.division {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.date {
+    font-family: "Lucida Console", Monaco, monospace;
     color: #00467b;
+    font-size: 20px;
+    text-shadow: 0 0 3px #f5e7e7, 0 0 5px #eaeaf7;
 }
 
-.titulo{
-    text-align: center; 
+.text-light{
+    font-family: "Courier New", Courier, monospace;
 }
 
-.jumbotron{
-background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/02/shutterstock_163052525-730x342.jpg")
+.titulo {
+    text-align: center;
+    text-shadow: 0 0 3px #f5e7e7, 0 0 5px #eaeaf7;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.jumbotron {
+    background: url("https://postgrados.udp.cl/cms/wp-content/uploads/2018/08/Taller-de-Herramientas-de-Narracio%CC%81n-y-Podcast.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 200px;
+    padding-top: 280px;
+    height: 70%;
 }
