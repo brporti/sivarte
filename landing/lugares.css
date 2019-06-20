@@ -1,0 +1,21 @@
+body{
+    background: url(img/background_lugares.jpg) #000000;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    justify-content: center;
+    justify-items: center;
+}
+
+.btn{
+    color: #000000;
+    background: #5a5858;
+}
