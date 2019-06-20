@@ -6,16 +6,15 @@ body{
 
 .principal{
     display: flex;
-    justify-content: center;
     align-items: center;
+    height: 43rem;
 }
 
 .item{
-    justify-content: center;
-    justify-items: center;
+
 }
 
 .btn{
-    color: #000000;
+    color: #ffffff;
     background: #5a5858;
 }
