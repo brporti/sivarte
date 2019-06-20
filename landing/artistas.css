@@ -13,6 +13,7 @@ body{
 
 
 
+
 .swing {
     color: #1D9AF2;
     background-color: #292D3E;
@@ -24,7 +25,8 @@ body{
     font-size: 14px;
     transition: all 0.2s ease-in-out;
   }
-  .swing:hover {
+
+.swing:hover {
    animation: swing 1s ease;
    animation-iteration-count: 1;
   }
