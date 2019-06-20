@@ -1,101 +1,71 @@
-body{
+html, body{
     height: 100%;
     width: 100%;
     background-color: #000000;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 0.9fr 1.2fr 1.3fr 0.8fr 0.9fr 0.9fr 1fr;
-    grid-template-rows: 1fr 0.9fr 0.9fr 1.1fr 0.9fr 1fr 1.2fr;
-    grid-template-areas: "Hoy Hoy Hoy Cafes Cafes centrosCultura centrosCultura" "Hoy Hoy Hoy Cafes Cafes centrosCultura centrosCultura" "Hoy Hoy Hoy algoDigital algoDigital centrosCultura centrosCultura" "Hoy Hoy Hoy algoDigital algoDigital Cantantes Cantantes" "Eventos Eventos Artistas Artistas Hecho Cantantes Cantantes" "Eventos Eventos Artistas Artistas Hecho Cantantes Cantantes" "Eventos Eventos Artistas Artistas Contactanos Contactanos Contactanos";
-  }
-  
-  .Cafes { grid-area: Cafes; }
-  
-  .Artistas { grid-area: Artistas; }
-  
-  .Hoy { grid-area: Hoy; }
-  
-  .Eventos { grid-area: Eventos; }
-  
-  .Hecho { grid-area: Hecho; }
-  
-  .Cantantes { grid-area: Cantantes; }
-  
-  .Contactanos { grid-area: Contactanos; }
-  
-  .centrosCultura { grid-area: centrosCultura; }
-  
-  .algoDigital { grid-area: algoDigital; }
-
-  img{
-    width:100%;
-    height:100%;
-  }
-
-  .padre{
-    width:100%;
-    height:100%;
-  }
-
-  .img{
-    width:100%;
-    height:100%;
-    background-color: black;
-    background-position: center;
-    background-size: cover;
-  }
- 
-.cafe{
-    background-image: url(http://allrestaurants.eu/img/af/129977/15597417533350.jpg)
+.arriba{
+    height: 65%;    
 }
 
-.artista{
-    background-image: url(https://thefashionsymphony.files.wordpress.com/2016/03/web.jpg?w=434&h=310)
+.abajo{
+    height: 35%;
 }
 
-.hoys{
+.adentro{
+    height: 50%;
+}
+
+.hoy{
     background-image: url(https://i.ytimg.com/vi/r1lXYJAAdEs/maxresdefault.jpg)
 }
 
-.evento{
-    background-image: url(http://www.mitur.gob.sv/wp-content/uploads/2011/11/IMG_8548-1024x768.jpg)
-}
-
-.hecho{
-    background-image: url(https://previews.123rf.com/images/simbos/simbos1701/simbos170100049/69304069-hecho-en-el-salvador-bandera-azul-color-etiqueta-bot%C3%B3n-banner.jpg)
-}
-
-.cantante{
-    background-image: url(https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2016/07/14/Production/ETL/ETL-A/Images/CARTASAFELICE.jpg?t=20170517)
-}
-
-.contactano{
-    background-image: url(https://static1.squarespace.com/static/57081929356fb0c9e49157eb/t/5b73443e1ae6cf1a3e88b084/1541778422658/contactanos.png)
-}
-
-.centro{
+.lugares{
     background-image: url(https://scontent.fsal2-1.fna.fbcdn.net/v/t1.15752-9/53150257_254944225381900_6175146563342434304_n.jpg?_nc_cat=105&_nc_eui2=AeFf0oEKHCipfVyf91Gww6JuzDGJvoMS_gKVzh2WHLjLfYy7IVJh7tMGA8EUvc-Jypv6KL-rySE0PoI0hW4FTkBQ4qXmN2DidEx1oYIZJidFAg&_nc_ht=scontent.fsal2-1.fna&oh=a5354656dbda232dd992053478580b2e&oe=5D19A278)
 }
 
-.digita{
+.digital{
     background-image: url(https://static1.squarespace.com/static/5b8dfa219d5abb3483d0cd73/5ba55ec4ec212d3b0af4da49/5ba69d6af9619abf16802c80/1537668523814/?format=300w)
 }
 
-.img:hover{
-    opacity: 1;
-    transition: 0.8s ease;
-    transform: scale(1.05)
+.cafes{
+    background-image: url(http://allrestaurants.eu/img/af/129977/15597417533350.jpg)
 }
 
-.padre:hover .img,
-.padre:hover:focus .img {
-transform: scale(1.05);
-transition: all .5s;
+.artistas{
+    background-image: url(https://thefashionsymphony.files.wordpress.com/2016/03/web.jpg?w=434&h=310)
 }
 
-.img::before {
+.eventos{
+    background-image: url(http://www.mitur.gob.sv/wp-content/uploads/2011/11/IMG_8548-1024x768.jpg)
+}
+
+.sivar{
+
+}
+
+.contacto{
+
+}
+
+.parent{
+    padding: 0px
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.parent:hover .child,
+.parent:focus .child {
+  transform: scale(1.15);
+  transition: all .9s;
+}
+
+.child::before {
     content: "";
     display: none;
     height: 100%;
@@ -103,22 +73,21 @@ transition: all .5s;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(52, 73, 94, 0.75);
   }
   
-  .padre:hover .img:before,
-  .padre:focus .img:before {
+  .parent:hover .child:before,
+  .parent:focus .child:before {
     display: block;
-  }
+}
 
 span {
     color: white;
-    font-family: sans-serif;
     padding: 25%;
     position: absolute;
-  }
+}
 
-.padre:hover span,
-.padre:focus span {
+.parent:hover span,
+.parent:focus span {
   display: block;
 }
