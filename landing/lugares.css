@@ -18,3 +18,9 @@ body{
     color: #ffffff;
     background: #5a5858;
 }
+
+.card01{
+    background: url(img/fondo_casa_tomada_paglugares.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
