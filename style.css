@@ -16,64 +16,74 @@ html, body{
 }
 
 .hoy{
-    height: 50%;
+    height: 24rem;
     width: 100%;
-    background-image: url(https://i.ytimg.com/vi/r1lXYJAAdEs/maxresdefault.jpg);
+    background-image: url(file:///C:/Users/Usuario/Desktop/Sivarte/img/banda.jpg);
+    background-position: top center;
     margin: 0;
 }
 
 .arriba2{
-    height: 50%;
+    height: 24rem;
     width: 100%;
     margin: 0;
 }
 
 .lugares{
-    background-image: url(https://scontent.fsal2-1.fna.fbcdn.net/v/t1.15752-9/53150257_254944225381900_6175146563342434304_n.jpg?_nc_cat=105&_nc_eui2=AeFf0oEKHCipfVyf91Gww6JuzDGJvoMS_gKVzh2WHLjLfYy7IVJh7tMGA8EUvc-Jypv6KL-rySE0PoI0hW4FTkBQ4qXmN2DidEx1oYIZJidFAg&_nc_ht=scontent.fsal2-1.fna&oh=a5354656dbda232dd992053478580b2e&oe=5D19A278);
-    height: 100%
+    background-image: url(file:///C:/Users/Usuario/Desktop/Sivarte/img/lugares.jpg);
+    background-position: center center;
+    min-zoom: 
 }
 
 .digital{
-    background-image: url(https://static1.squarespace.com/static/5b8dfa219d5abb3483d0cd73/5ba55ec4ec212d3b0af4da49/5ba69d6af9619abf16802c80/1537668523814/?format=300w);
-    height: 100%
+    background-image: url(file:///C:/Users/Usuario/Desktop/Sivarte/img/digital.jpg);
+    background-position: center center;
 }
 
 .cafes{
-    background-image: url(http://allrestaurants.eu/img/af/129977/15597417533350.jpg);
-    height: 100%
+    background-image: url(file:///C:/Users/Usuario/Desktop/Sivarte/img/cafes.jpg);
+    background-position: center center;
 
 }
 
 .artistas{
-    background-image: url(https://thefashionsymphony.files.wordpress.com/2016/03/web.jpg?w=434&h=310);
+    background-image: url(file:///C:/Users/Usuario/Desktop/Sivarte/img/sonia.jpg);
+    background-position: top center;
     height: 100%
 }
 
 .eventos{
-    background-image: url(http://www.mitur.gob.sv/wp-content/uploads/2011/11/IMG_8548-1024x768.jpg);
+    background-image: url(file:///C:/Users/Usuario/Desktop/Sivarte/img/nadine.jpg);
+    background-position: top center;
     height: 100%
-
 }
 
 .abajo{
-    height: 100%;
+    height: 44rem;
     padding: 0
 }
 
 .sivar{
-    height: 80%;
+    height: 35.2rem;
+    background-image: url(file:///C:/Users/Usuario/Desktop/Sivarte/img/sivar.jpg);
+    background-position: bottom center;
     background-color: rgb(255, 255, 255)
 }
 
 .contacto{
-    height: 20%;
+    height: 8.8rem;
     background-color: rgb(0, 0, 0)
 }
 
 .dos{
-    height: 100%;
+    height: 44rem;
     width: 100%;
     margin: 0;
+}
+
+#down{
+    background-color: black;
+    border-color: blue;
 }
 
 .scroll-down {
@@ -150,7 +160,8 @@ html, body{
     -webkit-filter: grayscale(0) blur(0);
 	filter: grayscale(0) blur(0);
 	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 	-webkit-filter: grayscale(100%) blur(2px);
     filter: grayscale(100%) blur(2px);
-    transition: .4s ease-in-out;
+    transition: .s ease-in-out;
 }
