@@ -41,7 +41,7 @@ html, body{
 .hoy{
     height: 24rem;
     width: 100%;
-    background-image: url(file:///C:/Users/Usuario/Desktop/Sivarte/img/banda.jpg);
+    background-image: url('file:///C:/Users/Usuario/Desktop/Sivarte/img/banda.jpg');
     background-position: top center;
     margin: 0;
 }
@@ -53,29 +53,29 @@ html, body{
 }
 
 .lugares{
-    background-image: url(img/lugares.jpg);
+    background-image: url('img/lugares.jpg');
     background-position: center center;
 }
 
 .digital{
-    background-image: url(img/digital.jpg);
+    background-image: url('img/digital.jpg');
     background-position: center center;
 }
 
 .cafes{
-    background-image: url(img/cafes.jpg);
+    background-image: url('img/cafes.jpg');
     background-position: center center;
 
 }
 
 .artistas{
-    background-image: url(img/sonia.jpg);
+    background-image: url('img/sonia.jpg');
     background-position: top center;
     height: 100%
 }
 
 .eventos{
-    background-image: url(img/nadine.jpg);
+    background-image: url('img/nadine.jpg');
     background-position: top center;
     height: 100%
 }
@@ -87,7 +87,7 @@ html, body{
 
 .sivar{
     height: 35.2rem;
-    background-image: url(img/sivar.jpg);
+    background-image: url('img/sivar.jpg');
     background-position: bottom center;
     background-color: rgb(255, 255, 255)
 }
