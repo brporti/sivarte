@@ -5,6 +5,28 @@ body {
     background-image: url(https://www.designyourway.net/diverse/darkpat/wallpaper_800x600_1336.jpg);
 }
 
+#logo{
+    height: 4rem;
+    width: 7rem;
+    padding: 0;
+}
+
+#logoin{
+    height: 4rem;
+    width: 7rem;
+    margin-left: 2rem;
+}
+
+#navbarCollapse1{
+    margin-left: 3rem;
+    padding-right: 0.5rem;
+    padding-left: 55rem;
+}
+
+.navbar{
+    padding-bottom: 0;
+}
+
 .my-4 {
     padding-top: 40px;
     color: #f5f5f5;

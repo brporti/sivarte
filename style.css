@@ -5,6 +5,28 @@ html, body{
     font-family: 'Roboto', sans-serif;
 }
 
+#logo{
+    height: 4rem;
+    width: 7rem;
+    padding: 0;
+}
+
+#logoin{
+    height: 4rem;
+    width: 7rem;
+    margin-left: 2rem;
+}
+
+#navbarCollapse1{
+    margin-left: 3rem;
+    padding-right: 0.5rem;
+    padding-left: 55rem;
+}
+
+.navbar{
+    padding-bottom: 0;
+}
+
 .primera{
     height: 48rem;
     width: 100%;
@@ -32,7 +54,6 @@ html, body{
 .lugares{
     background-image: url(file:///C:/Users/Usuario/Desktop/Sivarte/img/lugares.jpg);
     background-position: center center;
-    min-zoom: 
 }
 
 .digital{
@@ -151,17 +172,22 @@ html, body{
     align-items: center;
 }
 
-.texto{
-    font-size: 45px;
-    color: white
+.grande-blanco{
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 0 0 #000000, -1px 0 0 #000000, 0 1px 0 #000000, 0 -1px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+    margin-top: 20px;
 }
 
-.cosas:hover {
-    -webkit-filter: grayscale(0) blur(0);
-	filter: grayscale(0) blur(0);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-	-webkit-filter: grayscale(100%) blur(2px);
-    filter: grayscale(100%) blur(2px);
-    transition: .s ease-in-out;
+.titulo-blanco{
+    font-size: 45px;
+    color: white;
+    text-shadow: 1px 0 0 #000000, -1px 0 0 #000000, 0 1px 0 #000000, 0 -1px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
 }
+
+.titulo-negro{
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+

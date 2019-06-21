@@ -6,6 +6,28 @@ body{
     background-size: cover;
 }
 
+#logo{
+  height: 4rem;
+  width: 7rem;
+  padding: 0;
+}
+
+#logoin{
+  height: 4rem;
+  width: 7rem;
+  margin-left: 2rem;
+}
+
+#navbarCollapse1{
+  margin-left: 3rem;
+  padding-right: 0.5rem;
+  padding-left: 55rem;
+}
+
+.navbar{
+  padding-bottom: 0;
+}
+
 .espacio{
   height: 60px;
 }
