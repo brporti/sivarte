@@ -41,7 +41,7 @@ html, body{
 .hoy{
     height: 24rem;
     width: 100%;
-    background-image: url('file:///C:/Users/Usuario/Desktop/Sivarte/img/banda.jpg');
+    background-image: url('img/banda.jpg');
     background-position: top center;
     margin: 0;
 }
