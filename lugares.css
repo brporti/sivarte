@@ -6,16 +6,81 @@ body{
 
 .principal{
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.item{
     justify-content: center;
-    justify-items: center;
+    height: 43rem;
 }
 
-.btn{
-    color: #000000;
+/*.btn{
+    color: #ffffff;
     background: #5a5858;
+}*/
+
+.card01{
+    background: url(img/fondo_casa_tomada_paglugares.jpg);
+    background-size: cover;
+    color: #ffffff;
 }
+
+.card02{
+    background: url(img/fondo_espacio_132_paglugares.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+
+.card03{
+    background: url(img/fondo_bar_cafe_lat_paglugares.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+
+.card04{
+    background: url(img/fondo_la_dalia_paglugares.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+
+
+.swing {
+    color: #1D9AF2;
+    background-color: #292D3E;
+    border: 1px solid #1D9AF2;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height: 32px;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+  }
+
+.swing:hover {
+   animation: swing 1s ease;
+   animation-iteration-count: 1;
+  }
+  
+  @keyframes swing {
+    15% {
+      -webkit-transform: translateX(5px);
+      transform: translateX(5px);
+    }
+    30% {
+      -webkit-transform: translateX(-5px);
+      transform: translateX(-5px);
+    }
+    50% {
+      -webkit-transform: translateX(3px);
+      transform: translateX(3px);
+    }
+    65% {
+      -webkit-transform: translateX(-3px);
+      transform: translateX(-3px);
+    }
+    80% {
+      -webkit-transform: translateX(2px);
+      transform: translateX(2px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
