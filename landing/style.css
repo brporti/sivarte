@@ -1,93 +1,157 @@
 html, body{
-    height: 100%;
     width: 100%;
-    background-color: #000000;
+    height: 100%;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+
 }
 
-.arriba{
-    height: 65%;    
+.primera{
+    height: 48rem;
+    width: 100%;
 }
 
-.abajo{
-    height: 35%;
-}
-
-.adentro{
-    height: 50%;
+.segunda{
+    height: 44rem;
+    width: 100%;
 }
 
 .hoy{
-    background-image: url(https://i.ytimg.com/vi/r1lXYJAAdEs/maxresdefault.jpg)
+    height: 50%;
+    width: 100%;
+    background-image: url(https://i.ytimg.com/vi/r1lXYJAAdEs/maxresdefault.jpg);
+    margin: 0;
+}
+
+.arriba2{
+    height: 50%;
+    width: 100%;
+    margin: 0;
 }
 
 .lugares{
-    background-image: url(https://scontent.fsal2-1.fna.fbcdn.net/v/t1.15752-9/53150257_254944225381900_6175146563342434304_n.jpg?_nc_cat=105&_nc_eui2=AeFf0oEKHCipfVyf91Gww6JuzDGJvoMS_gKVzh2WHLjLfYy7IVJh7tMGA8EUvc-Jypv6KL-rySE0PoI0hW4FTkBQ4qXmN2DidEx1oYIZJidFAg&_nc_ht=scontent.fsal2-1.fna&oh=a5354656dbda232dd992053478580b2e&oe=5D19A278)
+    background-image: url(https://scontent.fsal2-1.fna.fbcdn.net/v/t1.15752-9/53150257_254944225381900_6175146563342434304_n.jpg?_nc_cat=105&_nc_eui2=AeFf0oEKHCipfVyf91Gww6JuzDGJvoMS_gKVzh2WHLjLfYy7IVJh7tMGA8EUvc-Jypv6KL-rySE0PoI0hW4FTkBQ4qXmN2DidEx1oYIZJidFAg&_nc_ht=scontent.fsal2-1.fna&oh=a5354656dbda232dd992053478580b2e&oe=5D19A278);
+    height: 100%
 }
 
 .digital{
-    background-image: url(https://static1.squarespace.com/static/5b8dfa219d5abb3483d0cd73/5ba55ec4ec212d3b0af4da49/5ba69d6af9619abf16802c80/1537668523814/?format=300w)
+    background-image: url(https://static1.squarespace.com/static/5b8dfa219d5abb3483d0cd73/5ba55ec4ec212d3b0af4da49/5ba69d6af9619abf16802c80/1537668523814/?format=300w);
+    height: 100%
 }
 
 .cafes{
-    background-image: url(http://allrestaurants.eu/img/af/129977/15597417533350.jpg)
+    background-image: url(http://allrestaurants.eu/img/af/129977/15597417533350.jpg);
+    height: 100%
+
 }
 
 .artistas{
-    background-image: url(https://thefashionsymphony.files.wordpress.com/2016/03/web.jpg?w=434&h=310)
+    background-image: url(https://thefashionsymphony.files.wordpress.com/2016/03/web.jpg?w=434&h=310);
+    height: 100%
 }
 
 .eventos{
-    background-image: url(http://www.mitur.gob.sv/wp-content/uploads/2011/11/IMG_8548-1024x768.jpg)
+    background-image: url(http://www.mitur.gob.sv/wp-content/uploads/2011/11/IMG_8548-1024x768.jpg);
+    height: 100%
+
+}
+
+.abajo{
+    height: 100%;
+    padding: 0
 }
 
 .sivar{
-
+    height: 80%;
+    background-color: rgb(255, 255, 255)
 }
 
 .contacto{
-
+    height: 20%;
+    background-color: rgb(0, 0, 0)
 }
 
-.parent{
-    padding: 0px
-}
-
-.child {
+.dos{
     height: 100%;
     width: 100%;
-    background-position: center;
-    background-size: cover;
+    margin: 0;
 }
 
-.parent:hover .child,
-.parent:focus .child {
-  transform: scale(1.15);
-  transition: all .9s;
+.scroll-down {
+    opacity: 1;
+    -webkit-transition: all .5s ease-in 3s;
+    transition: all .5s ease-in 3s;
 }
-
-.child::before {
-    content: "";
-    display: none;
-    height: 100%;
-    width: 100%;
+  
+  .scroll-down {
     position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(52, 73, 94, 0.75);
+    bottom: 30px;
+    left: 50%;
+    margin-left: -16px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #FFF;
+    background-size: 14px auto;
+    border-radius: 50%;
+    z-index: 2;
+    -webkit-animation: bounce 2s infinite 2s;
+    animation: bounce 2s infinite 2s;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
   }
   
-  .parent:hover .child:before,
-  .parent:focus .child:before {
-    display: block;
+  .scroll-down:before {
+      position: absolute;
+      top: calc(50% - 8px);
+      left: calc(50% - 6px);
+      transform: rotate(-45deg);
+      display: block;
+      width: 12px;
+      height: 12px;
+      content: "";
+      border: 2px solid white;
+      border-width: 0px 0 2px 2px;
+  }
+  
+  @keyframes bounce {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+    60% {
+      -webkit-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+      transform: translateY(-5px);
+    }
+  }
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-span {
-    color: white;
-    padding: 25%;
-    position: absolute;
+.texto{
+    font-size: 45px;
+    color: white
 }
 
-.parent:hover span,
-.parent:focus span {
-  display: block;
+.cosas:hover {
+    -webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	-webkit-filter: grayscale(100%) blur(2px);
+    filter: grayscale(100%) blur(2px);
+    transition: .4s ease-in-out;
 }
