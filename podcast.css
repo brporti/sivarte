@@ -28,10 +28,20 @@ body,html {
   padding-top: 0;
 }
 
-.img-fluid {
-    box-sizing: content-box;
+body
+ {
+    width: 100%;
+    height: 100%;
+    background: url('https://postgrados.udp.cl/cms/wp-content/uploads/2018/08/Taller-de-Herramientas-de-Narracio%CC%81n-y-Podcast.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
+.card-body{
+   background: url('https://www.designyourway.net/diverse/darkpat/wallpaper_800x600_1336.jpg');
+} 
 .division {
     height: 10px;
     border: 0;
@@ -49,64 +59,6 @@ body,html {
     font-family: "Courier New", Courier, monospace;
 }
 
-.titulo {
-    text-align: center;
-    text-shadow: 0 0 3px #f5e7e7, 0 0 5px #eaeaf7;
-    font-family: "Lucida Console", Monaco, monospace;
+.font-weight-light{
+color: whitesmoke;    
 }
-
-.jumbotron {
-    background: url("https://postgrados.udp.cl/cms/wp-content/uploads/2018/08/Taller-de-Herramientas-de-Narracio%CC%81n-y-Podcast.jpg") no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-left: 200px;
-    padding-top: 280px;
-    height: 70%;
-}
-
-
-.swing {
-    color: #1D9AF2;
-    background-color: #292D3E;
-    border: 1px solid #1D9AF2;
-    border-radius: 4px;
-    padding: 0 15px;
-    cursor: pointer;
-    height: 32px;
-    font-size: 14px;
-    transition: all 0.2s ease-in-out;
-  }
-
-.swing:hover {
-   animation: swing 1s ease;
-   animation-iteration-count: 1;
-  }
-  
-  @keyframes swing {
-    15% {
-      -webkit-transform: translateX(5px);
-      transform: translateX(5px);
-    }
-    30% {
-      -webkit-transform: translateX(-5px);
-      transform: translateX(-5px);
-    }
-    50% {
-      -webkit-transform: translateX(3px);
-      transform: translateX(3px);
-    }
-    65% {
-      -webkit-transform: translateX(-3px);
-      transform: translateX(-3px);
-    }
-    80% {
-      -webkit-transform: translateX(2px);
-      transform: translateX(2px);
-    }
-    100% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-    }
-  }
