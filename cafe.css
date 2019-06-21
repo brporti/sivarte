@@ -3,6 +3,8 @@ html,body {
     height: 100%;
     scroll-behavior: smooth;
     background-color: black;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
 }
 
 #logo{
@@ -31,4 +33,35 @@ html,body {
 .my-4 {
     padding-top: 40px;
     color: #f5f5f5;
+}
+
+.btn{
+    background-color: black
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+a{
+color: black;
+text-align: center
+}
+
+.carta{
+    margin-top: 4rem;
+    height: 6rem;
+    margin-bottom: 4rem;
+
+}
+
+.cafesi{
+    height: 5rem;
+}
+
+h1{
+    font-size: 4rem
 }
