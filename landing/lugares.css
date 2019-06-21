@@ -6,16 +6,36 @@ body{
 
 .principal{
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.item{
     justify-content: center;
-    justify-items: center;
+    height: 43rem;
 }
 
 .btn{
-    color: #000000;
+    color: #ffffff;
     background: #5a5858;
+}
+
+.card01{
+    background: url(img/fondo_casa_tomada_paglugares.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+
+.card02{
+    background: url(img/fondo_espacio_132_paglugares.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+
+.card03{
+    background: url(img/fondo_bar_cafe_lat_paglugares.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+
+.card04{
+    background: url(img/fondo_la_dalia_paglugares.jpg);
+    background-size: cover;
+    color: #ffffff;
 }
